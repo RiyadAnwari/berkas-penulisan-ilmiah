@@ -1,0 +1,243 @@
+{
+ "cv": {
+  "Baseline (kelas mayoritas)": {
+   "akurasi": [
+    0.6274181027790715,
+    0.003988768313881974
+   ],
+   "macro_f1": [
+    0.3855261362344111,
+    0.0015066745913130239
+   ],
+   "auc": [
+    0.5,
+    0.0
+   ]
+  },
+  "Gradient Boosting": {
+   "akurasi": [
+    0.9588712932774414,
+    0.018319167864004608
+   ],
+   "macro_f1": [
+    0.9556696163621693,
+    0.01991280576100265
+   ],
+   "auc": [
+    0.9910592322236605,
+    0.008543315499358361
+   ]
+  },
+  "Random Forest": {
+   "akurasi": [
+    0.9592206179164726,
+    0.020222594867811815
+   ],
+   "macro_f1": [
+    0.9560503075008158,
+    0.021929057326593303
+   ],
+   "auc": [
+    0.9899243144049481,
+    0.008445799539006212
+   ]
+  },
+  "Regresi logistik": {
+   "akurasi": [
+    0.9789147647880764,
+    0.014312103593817124
+   ],
+   "macro_f1": [
+    0.9772318427868055,
+    0.015569259910324488
+   ],
+   "auc": [
+    0.9948440058958401,
+    0.0053905147685929695
+   ]
+  },
+  "SVM (RBF)": {
+   "akurasi": [
+    0.9755736686849867,
+    0.013660211732590109
+   ],
+   "macro_f1": [
+    0.9737360411607113,
+    0.014751144276091362
+   ],
+   "auc": [
+    0.9951796112592869,
+    0.004743115007008503
+   ]
+  },
+  "k-NN (k = 5)": {
+   "akurasi": [
+    0.9657335817419656,
+    0.014323262987287833
+   ],
+   "macro_f1": [
+    0.9628075717828399,
+    0.015774390839668306
+   ],
+   "auc": [
+    0.9847659243575145,
+    0.010447525687178457
+   ]
+  }
+ },
+ "cv_n": 50,
+ "paired": {
+  "LR-SVM": {
+   "mean_diff": 0.0033410961030895738,
+   "a_lebih": 23,
+   "sama": 16,
+   "b_lebih": 11,
+   "n": 50
+  },
+  "LR-RF": {
+   "mean_diff": 0.019694146871603778,
+   "a_lebih": 40,
+   "sama": 5,
+   "b_lebih": 5,
+   "n": 50
+  },
+  "LR-GB": {
+   "mean_diff": 0.020043471510634982,
+   "a_lebih": 41,
+   "sama": 3,
+   "b_lebih": 6,
+   "n": 50
+  },
+  "LR-kNN": {
+   "mean_diff": 0.01318118304611084,
+   "a_lebih": 36,
+   "sama": 5,
+   "b_lebih": 9,
+   "n": 50
+  }
+ },
+ "holdout": {
+  "Baseline (kelas mayoritas)": {
+   "median": 0.631578947368421,
+   "mean": 0.631578947368421,
+   "sd": 0.0,
+   "min": 0.631578947368421,
+   "max": 0.631578947368421
+  },
+  "Gradient Boosting": {
+   "median": 0.956140350877193,
+   "mean": 0.9565789473684211,
+   "sd": 0.018717395583582423,
+   "min": 0.912280701754386,
+   "max": 1.0
+  },
+  "Random Forest": {
+   "median": 0.956140350877193,
+   "mean": 0.9575438596491229,
+   "sd": 0.018012524404953153,
+   "min": 0.912280701754386,
+   "max": 0.9912280701754386
+  },
+  "Regresi logistik": {
+   "median": 0.9824561403508772,
+   "mean": 0.9770175438596492,
+   "sd": 0.014581555288606276,
+   "min": 0.9298245614035088,
+   "max": 1.0
+  },
+  "SVM (RBF)": {
+   "median": 0.9736842105263158,
+   "mean": 0.975,
+   "sd": 0.012798566903088978,
+   "min": 0.9298245614035088,
+   "max": 1.0
+  },
+  "k-NN (k = 5)": {
+   "median": 0.9649122807017544,
+   "mean": 0.9642105263157894,
+   "sd": 0.015253673156671943,
+   "min": 0.9035087719298246,
+   "max": 0.9912280701754386
+  }
+ },
+ "cvrun": {
+  "Baseline (kelas mayoritas)": {
+   "sd": 1.1702778228589004e-16,
+   "min": 0.6274181027790716,
+   "max": 0.6274181027790716
+  },
+  "Gradient Boosting": {
+   "sd": 0.006356386905527378,
+   "min": 0.9490762303990063,
+   "max": 0.9666045645086166
+  },
+  "Random Forest": {
+   "sd": 0.00546516241167135,
+   "min": 0.9473218444340941,
+   "max": 0.9665890389691041
+  },
+  "Regresi logistik": {
+   "sd": 0.003621786300856954,
+   "min": 0.9736065828287532,
+   "max": 0.9841950007762769
+  },
+  "SVM (RBF)": {
+   "sd": 0.002802454734804866,
+   "min": 0.971852196863841,
+   "max": 0.9789163173420276
+  },
+  "k-NN (k = 5)": {
+   "sd": 0.002642145479805724,
+   "min": 0.9613724576929048,
+   "max": 0.9701133364384413
+  }
+ },
+ "rq3": {
+  "cvbest": "Regresi logistik",
+  "cobest": {
+   "Regresi logistik": 64,
+   "SVM (RBF)": 50,
+   "k-NN (k = 5)": 16,
+   "Random Forest": 12,
+   "Gradient Boosting": 10
+  },
+  "strict": {
+   "Regresi logistik": 30,
+   "SVM (RBF)": 19,
+   "k-NN (k = 5)": 6,
+   "Random Forest": 1,
+   "Gradient Boosting": 4
+  },
+  "rho_mean": 0.5999730431121314,
+  "rho_min": -0.46169025843831935,
+  "rho_max": 0.9999999999999999,
+  "lr_vs_svm": {
+   "lr_lebih": 42,
+   "sama": 31,
+   "svm_lebih": 27
+  },
+  "n_splits": 100,
+  "n_distinct_top_sets": 18,
+  "top_sets": {
+   "Regresi logistik": 30,
+   "SVM (RBF)": 19,
+   "Regresi logistik + SVM (RBF)": 18,
+   "k-NN (k = 5)": 6,
+   "Gradient Boosting": 4,
+   "Random Forest + Regresi logistik": 4,
+   "SVM (RBF) + k-NN (k = 5)": 3,
+   "Regresi logistik + SVM (RBF) + k-NN (k = 5)": 3,
+   "Random Forest + Regresi logistik + SVM (RBF)": 2,
+   "Regresi logistik + k-NN (k = 5)": 2,
+   "Gradient Boosting + Random Forest + Regresi logistik": 2,
+   "Random Forest + SVM (RBF)": 1,
+   "Random Forest": 1,
+   "Gradient Boosting + Regresi logistik + SVM (RBF)": 1,
+   "Gradient Boosting + Random Forest + Regresi logistik + SVM (RBF)": 1,
+   "Random Forest + SVM (RBF) + k-NN (k = 5)": 1,
+   "Gradient Boosting + SVM (RBF) + k-NN (k = 5)": 1,
+   "Gradient Boosting + Regresi logistik": 1
+  }
+ },
+ "baseline_acc": 0.6274181027790716
+}
